@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOAPLY – Fyll på med kranvatten. Minska plasten i badrummet.</title>
+  <meta name="description"
+    content="SOAPLY är Sveriges smartaste handtvål i tablettform. 1 tablett + kranvatten = 300 ml silkeslen skumtvål. Spara plats, minska engångsplast och slipp släpa hem vatten. Startpaket från 199 kr.">
+  <meta name="keywords"
+    content="handtvål tablett, refilltvål, skumtvål, soaply, tvåltabletter, zero waste badrum, hållbar handtvål">
+
+  <!-- OpenGraph / Social Meta -->
+  <meta property="og:title" content="SOAPLY – Fyll på med kranvatten. Minska plasten i badrummet.">
+  <meta property="og:description"
+    content="Upptäck framtidens handtvål. 1 tablett löses i vanligt kranvatten. Mindre plast, mer stil i badrummet.">
+  <meta property="og:image" content="assets/hero-bathroom.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Fraunces, Plus Jakarta Sans & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css?v=morkt-1">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
+  <link rel="preload" as="image" href="assets/soaply-hero-bathroom.webp" fetchpriority="high">
+</head>
+
+<body>
+
+  <!-- Announcement Bar -->
+  <aside class="announcement-bar" id="announcement-bar">
+    <div class="container announcement-content">
+      <span class="announcement-badge">Höstkampanj</span>
+      <p>Fri brevlådefrakt vid köp av startpaket • 1–2 dagars leverans • 60 dagars nöjd-kund-garanti</p>
+    </div>
+  </aside>
+
+  <!-- Sticky Header / Navigation (Inspirerad av wireframen) -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo" aria-label="SOAPLY Hem">
+        <img src="assets/soaply-logo-transparent.png" alt="soaply" class="brand-logo-img">
+      </a>
+
+      <nav class="desktop-nav" aria-label="Huvudmeny">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">Om oss</a></li>
+          <li><a href="#services" class="nav-link">Vårt sortiment</a></li>
+          <li><a href="#how-it-works" class="nav-link">Hur det fungerar</a></li>
+          <li><a href="#calculator" class="nav-link">Miljökalkylator</a></li>
+          <li><a href="#contact" class="nav-link">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Knapp för mörkt/ljust läge (styrs i app.js, avsnitt 10) -->
+        <button id="tema" type="button" class="tema-knapp" aria-pressed="false">Mörkt läge</button>
+
+        <button class="cart-trigger-btn" id="cart-trigger" aria-label="Öppna varukorg">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span class="cart-count" id="cart-badge-count">1</span>
+        </button>
+
+        <a href="#services" class="btn btn-primary btn-sm header-cta">Beställ Startkit (199 kr)</a>
+
+        <button class="mobile-menu-toggle" id="mobile-menu-btn" aria-label="Öppna mobilmeny" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav" id="mobile-nav">
+      <ul class="mobile-nav-list">
+        <li><a href="#about" class="mobile-nav-link">Om oss</a></li>
+        <li><a href="#services" class="mobile-nav-link">Vårt sortiment</a></li>
+        <li><a href="#how-it-works" class="mobile-nav-link">Hur det fungerar</a></li>
+        <li><a href="#calculator" class="mobile-nav-link">Miljökalkylator</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Kontakt</a></li>
+        <li class="mobile-nav-cta">
+          <a href="#services" class="btn btn-primary btn-block">Beställ Startkit för 199 kr</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- 1. WIREFRAME HERO (Centrerad rubrik, ingress, knapp och visuell presentation) -->
+    <section class="wireframe-hero" id="hero">
+      <div class="container">
+        
+        <div class="wireframe-hero-badge">
+          <span>Det smarta valet för moderna badrum</span>
+        </div>
+
+        <h1 class="wireframe-hero-headline">Din nya tvål börjar med en tablett.</h1>
+        
+        <p class="wireframe-hero-sub">
+          Gör plats för en enklare badrumsrutin. Lös upp en SOAPLY-tablett i kranvatten och fyll din återanvändbara flaska med härlig skumtvål. När den tar slut fyller du på igen – samma flaska, en ny tablett.
+        </p>
+
+        <div class="wireframe-hero-cta">
+          <a href="#services" class="btn btn-primary btn-lg">
+            <span>Kom igång – Beställ Startkit (199 kr)</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+          <a href="#how-it-works" class="btn btn-outline btn-lg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v16M5 13l7 7 7-7"></path></svg>
+            <span>Så fungerar det – i tre steg</span>
+          </a>
+        </div>
+
+        <div class="wireframe-hero-badges-row">
+          <div class="hero-pill-usp">
+            <span>💧</span>
+            <span>100% kranvatten</span>
+          </div>
+          <div class="hero-pill-usp">
+            <span>✨</span>
+            <span>Färdig skumtvål på 3 minuter</span>
+          </div>
+          <div class="hero-pill-usp">
+            <span>📦</span>
+            <span>Fri brevlådefrakt med PostNord</span>
+          </div>
+          <div class="hero-pill-usp">
+            <span>🛡️</span>
+            <span>60 dagars nöjd-kund-garanti</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Trust & Fact Strip -->
+    <section class="trust-strip" aria-label="Verifierade hållbarhetsfakta">
+      <div class="container trust-grid">
+        <div class="trust-fact">
+          <span class="fact-number">95%</span>
+          <span class="fact-desc">Mindre transportvikt än flytande engångstvål</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-fact">
+          <span class="fact-number">0</span>
+          <span class="fact-desc">Engångsplastflaskor som behöver slängas</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-fact">
+          <span class="fact-number">1 = 1</span>
+          <span class="fact-desc">Standarddosering: 1 tablett ger 300 ml tvål</span>
+        </div>
+        <div class="trust-divider"></div>
+        <div class="trust-fact">
+          <span class="fact-number">100%</span>
+          <span class="fact-desc">Biologiskt nedbrytbara tvättaktiva ämnen</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. WIREFRAME "OUR SERVICES" / "VÅRT SORTIMENT" (3 Kolumner) -->
+    <section class="wireframe-services-section" id="services">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-kicker">Vårt sortiment</span>
+          <h2 class="section-title">Skonsamma tvålar för alla behov</h2>
+          <p class="section-lead">Allt du behöver för att komma igång. Ingen bindningstid, fri brevlådefrakt och 60 dagars garanti.</p>
+        </div>
+
+        <div class="services-grid-3" id="products">
+          
+          <!-- Card 1: Startpaket Original -->
+          <article class="service-product-card" id="card-starter-kit">
+            <span class="service-card-badge badge-start">Kom igång</span>
+            
+            <div class="service-card-media">
+              <img src="assets/soaply-startpaket.png" alt="SOAPLY startpaket med grön pumpflaska, refillask och tre tabletter" class="product-packshot" width="1200" height="840" loading="lazy">
+            </div>
+
+            <div class="service-card-body">
+              <h3 class="service-card-title">Startpaket Original</h3>
+              <p class="service-card-desc">
+                Innehåller 1 st återanvändbar designpumpflaska (300 ml) och 3 st koncentrerade refilltabletter. Räcker i cirka 3–4 månader.
+              </p>
+
+              <!-- Color Swatches -->
+              <div class="config-group" style="margin-bottom: 1rem;">
+                <label class="config-label" style="font-size: 0.8rem; margin-bottom: 0.35rem; display: block;">Flaskfärg: <strong id="selected-color-label">Pine Green</strong></label>
+                <div class="color-swatches" role="radiogroup" aria-label="Flaskfärg">
+                  <button type="button" class="swatch-btn active" data-color="Pine Green" style="background-color: #1C3B2B;" aria-label="Pine Green" title="Pine Green"></button>
+                  <button type="button" class="swatch-btn" data-color="Nordic Sand" style="background-color: #D9D2C7;" aria-label="Nordic Sand" title="Nordic Sand"></button>
+                  <button type="button" class="swatch-btn" data-color="Slate Grey" style="background-color: #57605B;" aria-label="Slate Grey" title="Slate Grey"></button>
+                </div>
+              </div>
+
+              <!-- Scent Radio -->
+              <div class="config-group" style="margin-bottom: 1.25rem;">
+                <label class="config-label" style="font-size: 0.8rem; margin-bottom: 0.35rem; display: block;">Doftkombination:</label>
+                <div class="scent-options" style="display:flex; flex-direction:column; gap:0.4rem; font-size:0.8rem;">
+                  <label class="scent-radio-label" style="display:flex; align-items:center; gap:0.4rem; cursor:pointer;">
+                    <input type="radio" name="starter-scent" value="Ocean Breeze & Sensitiv Trio" checked>
+                    <span>Ocean Breeze & Sensitiv Trio</span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="service-card-footer">
+                <div class="service-card-price">
+                  199 kr
+                  <span>Fri brevlådefrakt</span>
+                </div>
+                <button class="btn btn-primary btn-sm add-to-cart-btn" data-id="starter-kit" data-name="SOAPLY Startpaket" data-price="199">
+                  Lägg i varukorg
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: Refill 6-pack -->
+          <article class="service-product-card" id="card-refill-6">
+            <span class="service-card-badge badge-bestseller">Bästsäljare</span>
+            
+            <div class="service-card-media">
+              <img src="assets/soaply-refill-6.png" alt="SOAPLY refillask med sex tabletter" class="product-packshot" width="1200" height="840" loading="lazy">
+            </div>
+
+            <div class="service-card-body">
+              <h3 class="service-card-title">Refill 6-pack</h3>
+              <p class="service-card-desc">
+                6 kompakta tabletter. Ger totalt 1 800 ml lyxig skumtvål i en 100% komposterbar pappersask som ryms i brevlådan.
+              </p>
+
+              <div class="service-card-selector">
+                <label class="config-label" style="font-size: 0.8rem; margin-bottom: 0.35rem; display: block;">Välj doft:</label>
+                <select class="scent-select" id="refill-6-scent" aria-label="Doftval för 6-pack">
+                  <option value="Ocean Breeze (4 st)">Ocean Breeze (Signaturdoft)</option>
+                  <option value="Lavendelblom & Bergamott">Lavendelblom & Bergamott</option>
+                  <option value="Oparfymerad Sensitiv">Oparfymerad Sensitiv (Känslig hud)</option>
+                </select>
+              </div>
+
+              <div class="service-card-footer">
+                <div class="service-card-price">
+                  89 kr
+                  <span>14,83 kr / påfyllning</span>
+                </div>
+                <button class="btn btn-outline btn-sm add-to-cart-btn" data-id="refill-6" data-name="Refill 6-pack" data-price="89">
+                  Lägg i varukorg
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: Familjepaket (18-pack) -->
+          <article class="service-product-card" id="card-refill-18">
+            <span class="service-card-badge">Mest prisvärd</span>
+            
+            <div class="service-card-media">
+              <img src="assets/soaply-familjepaket.png" alt="SOAPLY familjepaket med tre refillaskar, totalt arton tabletter" class="product-packshot" width="1200" height="840" loading="lazy">
+            </div>
+
+            <div class="service-card-body">
+              <h3 class="service-card-title">Familjepaket (18 Refills)</h3>
+              <p class="service-card-desc">
+                Årsbehov för hela familjen till marknadens lägsta styckpris. Motsvarar 5 400 ml tvål och sparar 85% lagringsplats under vasken.
+              </p>
+
+              <div class="service-card-selector">
+                <label class="config-label" style="font-size: 0.8rem; margin-bottom: 0.35rem; display: block;">Välj doftmix:</label>
+                <select class="scent-select" id="refill-18-scent" aria-label="Doftval för 18-pack">
+                  <option value="Familjemix (Bästsäljare)">Familjemix (Ocean Breeze, Lavendel, Sensitiv)</option>
+                  <option value="Ocean Breeze (18 st)">Ocean Breeze (18 st)</option>
+                  <option value="Oparfymerad Sensitiv (18 st)">Oparfymerad Sensitiv (18 st)</option>
+                </select>
+              </div>
+
+              <div class="service-card-footer">
+                <div class="service-card-price">
+                  229 kr
+                  <span>12,72 kr / tvål • Fri frakt</span>
+                </div>
+                <button class="btn btn-outline btn-sm add-to-cart-btn" data-id="refill-18" data-name="Familjepaket (18 refills)" data-price="229">
+                  Lägg i varukorg
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. WIREFRAME 2-COLUMN FEATURE BREAKDOWN (Bild vänster, Text & Garanti höger) -->
+    <section class="wireframe-breakdown-section" id="feature-breakdown">
+      <div class="container wireframe-breakdown-grid">
+        
+        <div class="breakdown-left-media">
+          <img src="assets/product-inspiration-collage.jpg" alt="Hand släpper en tablett i vattenfylld flaska och tabletten börjar brusa" class="crop-tablet-dissolve" width="600" height="480">
+          <div class="breakdown-media-caption">
+            <h4>Mix with water. Real care.</h4>
+            <p>1 tablett + vanligt kranvatten löses upp på bara 3 minuter. Redo att användas.</p>
+          </div>
+        </div>
+
+        <div class="breakdown-right-content">
+          <span class="section-kicker">Cirkulär renhet</span>
+          <h2 class="breakdown-title">Varför betala för att frakta 90% vatten?</h2>
+          <p class="breakdown-lead">
+            Konventionell flytande tvål i butik består till nio tiondelar av vanligt kranvatten som fraktas i engångsplast över hela landet. Det är tungt, dyrt och slösar på jordens resurser.
+          </p>
+          <p class="breakdown-lead">
+            Med SOAPLY tillsätter du kranvattnet själv hemma. Våra torra tabletter levereras platt i pappersförpackningar direkt i ditt brevinkast – inga onödiga utsläpp, inga tunga kassar och ingen plast att källsortera.
+          </p>
+
+          <div class="breakdown-feature-box">
+            <div class="breakdown-feature-item">
+              <div class="breakdown-feature-icon">🛡️</div>
+              <div class="breakdown-feature-text">
+                <strong>60 dagars nöjd-kund-garanti</strong>
+                <span>Testa hemma i lugn och ro. Inte 100% nöjd? Full återbetalning direkt.</span>
+              </div>
+            </div>
+
+            <div class="breakdown-feature-item">
+              <div class="breakdown-feature-icon">🌿</div>
+              <div class="breakdown-feature-text">
+                <strong>Dermatologiskt testad & pH 5.5</strong>
+                <span>Vårdande glycerin och milda växttensider som bevarar hudens naturliga barriär.</span>
+              </div>
+            </div>
+
+            <div class="breakdown-feature-item">
+              <div class="breakdown-feature-icon">📦</div>
+              <div class="breakdown-feature-text">
+                <strong>Fri brevlådefrakt via PostNord</strong>
+                <span>Levereras direkt i din brevlåda. Du slipper trängas hos postombud.</span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <a href="#calculator" class="btn btn-outline btn-md">Beräkna din besparing i kalkylatorn →</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 4. WIREFRAME "ABOUT US" (Om oss & Karta med nål) -->
+    <section class="wireframe-about-section" id="about">
+      <div class="container wireframe-about-grid">
+        
+        <div class="about-text-content">
+          <span class="section-kicker">Om SOAPLY</span>
+          <h2 class="about-title">Skandinavisk estetik möter cirkulär omtanke</h2>
+          <p class="about-p">
+            SOAPLY grundades i Sverige med en stark övertygelse: god design och hållbara vanor ska inte kräva kompromisser i vardagen. 
+          </p>
+          <p class="about-p">
+            Varför ska vi släpa hem tunga plastflaskor fyllda med vatten när vi har världens bästa dricksvatten direkt i kranen? Genom att koncentrera de aktiva tvål- och vårdämnena till en liten tablett har vi minskat transportvikten med upp till 95% och eliminerat behovet av engångsplast.
+          </p>
+
+          <div class="about-chips">
+            <span class="about-chip">🇸🇪 Utvecklad i Sverige</span>
+            <span class="about-chip">🌱 100% Cirkulär formel</span>
+            <span class="about-chip">💧 95% Mindre transportvikt</span>
+            <span class="about-chip">✨ Återvunnen tålig rPET</span>
+          </div>
+        </div>
+
+        <div class="about-map-card">
+          <div class="map-grid-overlay"></div>
+
+          <div class="map-card-header">
+            <h3 class="map-card-title">Svensk utveckling & distribution</h3>
+            <p class="map-card-sub">Stockholm • Centralt lager & PostNord transportnätverk</p>
+          </div>
+
+          <!-- Pulsing Map Pin (Inspirerad av wireframens kartnål) -->
+          <div class="map-pin-pulse-container">
+            <div class="map-pin-icon" title="SOAPLY Central Hub">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"></path>
+                <circle cx="12" cy="9" r="2.5"></circle>
+              </svg>
+              <div class="map-pin-ring"></div>
+            </div>
+            <div class="map-pin-tooltip">
+              📍 SOAPLY Nordic • Central Hub
+            </div>
+          </div>
+
+          <div class="map-card-footer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="1" y="3" width="15" height="13"></rect>
+              <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+              <circle cx="5.5" cy="18.5" r="2.5"></circle>
+              <circle cx="18.5" cy="18.5" r="2.5"></circle>
+            </svg>
+            <span>Snabb brevlådefrakt till över 4,5 miljoner svenska hushåll (1–2 vardagar)</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 5. WIREFRAME "CONTACT US" (Kontakta oss & Rabattkod) -->
+    <section class="wireframe-contact-section" id="contact">
+      <div class="container">
+        <span class="section-kicker">Håll kontakten</span>
+        <h2 class="wireframe-contact-title">Kontakta oss & Få 10% rabatt</h2>
+        <p class="wireframe-contact-sub">
+          Anmäl dig till vårt nyhetsbrev och få tips om plastfria rutiner samt 10% rabattkod direkt i inkorgen. Har du frågor eller vill bli återförsäljare?
+        </p>
+
+        <div class="wireframe-contact-form-wrap">
+          <form class="wireframe-contact-inline-form" id="newsletter-form">
+            <input type="email" placeholder="Skriv in din e-postadress..." required class="wireframe-contact-input" aria-label="E-postadress för nyhetsbrev och rabattkod">
+            <button type="submit" class="btn btn-primary btn-md">Få 10% rabattkod</button>
+          </form>
+          <span class="newsletter-feedback" id="newsletter-feedback" style="display:block; margin-top: 1rem;"></span>
+        </div>
+
+        <div class="wireframe-contact-extra">
+          <span>Behöver du personlig rådgivning? Maila oss på <a href="mailto:hej@soaply.se">hej@soaply.se</a></span>
+          <span>•</span>
+          <button type="button" id="open-b2b-modal-btn" style="background:none; border:none; padding:0; text-decoration:underline; font-weight:600; color:var(--color-accent-sage); cursor:pointer;">Begär B2B-företagsoffert</button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section: How it Works (Interactive 3-Step Process) -->
+    <section class="how-it-works-section" id="how-it-works">
+      <div class="container">
+
+        <div class="section-header text-center">
+          <span class="section-kicker">Enkel vardagsrutin</span>
+          <h2 class="section-title">Så enkelt fungerar SOAPLY</h2>
+          <p class="section-lead">Inga krångliga mått. Inga tunga dunkar. Tre enkla steg för ett renare badrum.</p>
+        </div>
+
+        <div class="steps-interactive-wrapper">
+          <!-- Step cards -->
+          <div class="steps-grid">
+
+            <div class="step-card active" data-step="1" id="step-card-1">
+              <div class="step-indicator">
+                <span class="step-num">1</span>
+              </div>
+              <h3 class="step-title">Fyll på med kranvatten</h3>
+              <p class="step-description">
+                Fyll din återanvändbara SOAPLY-flaska med 300 ml ljummet kranvatten direkt från kranen upp till den
+                diskreta markeringen.
+              </p>
+              <div class="step-meta">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+                <span>Tar 10 sekunder</span>
+              </div>
+            </div>
+
+            <div class="step-card" data-step="2" id="step-card-2">
+              <div class="step-indicator">
+                <span class="step-num">2</span>
+              </div>
+              <h3 class="step-title">Släpp ner 1 tablett</h3>
+              <p class="step-description">
+                Släpp ner en SOAPLY-refilltablett. Den börjar genast bubbla och löses upp av sig själv på cirka 3
+                minuter. Du behöver inte ens skaka.
+              </p>
+              <div class="step-meta">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+                <span>Ingen väntetid på 40 minuter</span>
+              </div>
+            </div>
+
+            <div class="step-card" data-step="3" id="step-card-3">
+              <div class="step-indicator">
+                <span class="step-num">3</span>
+              </div>
+              <h3 class="step-title">Tvätta händerna</h3>
+              <p class="step-description">
+                När tabletten har lösts upp, skruva på pumpen. Dosera skumtvålen i fuktiga händer, tvätta noggrant och skölj med vatten. Återanvänd flaskan när det är dags för nästa påfyllning.
+              </p>
+              <div class="step-meta">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+                <span>Ger ca 350 fylliga handtvättar</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Step Preview Display Box -->
+          <div class="step-preview-box" id="step-preview-box">
+            <div class="preview-content">
+              <div class="preview-badge" id="preview-step-badge">Steg 1 av 3</div>
+              <h4 id="preview-step-title">Fyll på med 300 ml kranvatten</h4>
+              <p id="preview-step-desc">Använd vanligt ljummet vatten från badrumskranen. Du slipper betala för att
+                frakta 90% vatten över landet i plastflaskor.</p>
+              <div class="preview-metric">
+                <span class="metric-highlight">💡 Visste du?</span>
+                <span id="preview-step-fact">Vanlig flytande handtvål i butik består till nio tiondelar av vanligt
+                  vatten i engångsplast.</span>
+              </div>
+            </div>
+            <div class="preview-progress">
+              <div class="progress-bar" id="preview-progress-fill" style="width: 33.3%;"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Section: Comparison Matrix (SOAPLY vs. Competitors vs. Supermarket plastic) -->
+    <section class="comparison-section" id="comparison">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker">Marknadsjämförelse</span>
+          <h2 class="section-title">Varför välja SOAPLY?</h2>
+          <p class="section-lead">Se skillnaderna mellan SOAPLYs refilltabletter och vanlig flytande tvål i plastflaska.</p>
+        </div>
+
+        <div class="table-responsive-wrapper">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+<th class="feature-col">Funktion & Pris</th>
+<th class="highlight-col">
+                  <div class="table-brand-header">
+                    <span class="brand-tag">Bästa helhet</span>
+                    <img src="assets/soaply-logo-transparent.png" class="comparison-logo" alt="SOAPLY">
+                  </div>
+                </th>
+<th>Vanlig flytande plasttvål</th>
+</tr>
+            </thead>
+            <tbody>
+              <tr>
+<td class="feature-label">Startpaket (Flaska + Refills)</td>
+<td class="highlight-cell"><strong>199 kr</strong> <span class="sub">(3 refills ingår)</span></td>
+<td>Ca 60–90 kr <span class="sub">(Engångsflaska)</span></td>
+</tr>
+              <tr>
+<td class="feature-label">Kostnad per refill / flaska</td>
+<td class="highlight-cell"><strong>Ca 14,80 kr</strong> <span class="sub">(49 kr/L)</span></td>
+<td>Ca 29 kr <span class="sub">(Refillpåse 1L)</span></td>
+</tr>
+              <tr>
+<td class="feature-label">Dosering per påfyllning</td>
+<td class="highlight-cell"><strong>1 tablett = 1 flaska (300 ml)</strong></td>
+<td>Kladdig påfyllning av vätska</td>
+</tr>
+              <tr>
+<td class="feature-label">Upplösningstid i kranvatten</td>
+<td class="highlight-cell"><strong>Ca 3 minuter</strong></td>
+<td>Redan flytande</td>
+</tr>
+              <tr>
+<td class="feature-label">Flaska & Material</td>
+<td class="highlight-cell"><strong>Stöttålig rPET / aluminium</strong> <span
+                    class="sub">(Barnvänlig)</span></td>
+<td>Engångsplast (slängs)</td>
+</tr>
+              <tr>
+<td class="feature-label">Leveransmetod för refills</td>
+<td class="highlight-cell"><strong>Rakt ner i brevlådan</strong></td>
+<td>Måste bäras hem från butik</td>
+</tr>
+              <tr>
+<td class="feature-label">Miljövinst (Plast & Transport)</td>
+<td class="highlight-cell"><strong>95% mindre fraktvikt, 0 engångsplast</strong></td>
+<td>Transporterar 90% vatten</td>
+</tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="comparison-footer-note">
+          <p><em>* Uppgifter baserade på marknadsanalys och officiella konsumentpriser i Sverige under våren 2026.
+              SOAPLY eliminerar både onödiga varumärkespåslag och krångliga doseringar.</em></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Interactive Sustainability & Savings Calculator -->
+    <section class="calculator-section" id="calculator">
+      <div class="container">
+        <div class="calculator-card">
+          <div class="calculator-header text-center">
+            <span class="section-kicker">Se din effekt</span>
+            <h2 class="section-title">Vad sparar ditt hushåll med SOAPLY?</h2>
+            <p class="section-lead">Dra i reglaget nedan och se hur mycket plast, transportvikt och pengar ni sparar
+              varje år.</p>
+          </div>
+
+          <div class="calculator-interactive">
+
+            <div class="slider-control-group">
+              <div class="slider-label-row">
+                <label for="calc-people-slider">Personer i hushållet:</label>
+                <span class="slider-value-display" id="calc-people-display">3 personer</span>
+              </div>
+              <input type="range" id="calc-people-slider" min="1" max="6" value="3" step="1" class="custom-range"
+                aria-label="Antal personer i hushållet">
+              <div class="slider-ticks">
+                <span>1 pers</span>
+                <span>2 pers</span>
+                <span>3 pers</span>
+                <span>4 pers</span>
+                <span>5 pers</span>
+                <span>6+ pers</span>
+              </div>
+            </div>
+
+            <!-- Calculated Metrics Cards -->
+            <div class="calculator-results-grid">
+
+              <div class="calc-result-box">
+                <div class="calc-icon">🧴</div>
+                <div class="calc-data">
+                  <span class="calc-number" id="calc-plastic-saved">18 st</span>
+                  <span class="calc-unit">Plastflaskor sparade / år</span>
+                </div>
+                <p class="calc-subtext">Inga mer onödiga engångspumpar som hamnar i soporna.</p>
+              </div>
+
+              <div class="calc-result-box">
+                <div class="calc-icon">🚚</div>
+                <div class="calc-data">
+                  <span class="calc-number" id="calc-water-saved">5,4 kg</span>
+                  <span class="calc-unit">Mindre vätsketransport</span>
+                </div>
+                <p class="calc-subtext">Eliminerar 95% av transportvikten och sparar koldioxid.</p>
+              </div>
+
+              <div class="calc-result-box">
+                <div class="calc-icon">📦</div>
+                <div class="calc-data">
+                  <span class="calc-number" id="calc-space-saved">85%</span>
+                  <span class="calc-unit">Mindre skåpyta</span>
+                </div>
+                <p class="calc-subtext">Alla dina refills för ett halvår ryms i en liten kuvertask.</p>
+              </div>
+
+              <div class="calc-result-box highlight-box">
+                <div class="calc-icon">💰</div>
+                <div class="calc-data">
+                  <span class="calc-number" id="calc-money-saved">340 kr</span>
+                  <span class="calc-unit">Sparade kronor / år</span>
+                </div>
+                <p class="calc-subtext">Skumtvål förbrukar mindre vätska per handtvätt.</p>
+              </div>
+
+            </div>
+
+            <div class="calculator-cta text-center">
+              <a href="#services" class="btn btn-primary btn-md">Börja spara idag – Beställ Startkit</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Skin Care & Ingredients (Directly addressing Elin's quality concerns) -->
+    <section class="ingredients-section" id="ingredients">
+      <div class="container">
+        <div class="ingredients-grid">
+
+          <div class="ingredients-text">
+            <span class="section-kicker">Omtanke om huden</span>
+            <h2 class="section-title">Skonsam känsla. Härlig doft.</h2>
+            <p class="lead-text">
+              Många oroar sig för att tvåltabletter ska kännas vattniga eller torka ut händerna. SOAPLY är formulerad av
+              svenska kemister för att ge samma fylliga, krämiga känsla som en premiumtvål på lyxhotell – men utan
+              onödigt vatten.
+            </p>
+
+            <div class="ingredient-highlights">
+              <div class="ing-card">
+                <div class="ing-icon">🥥</div>
+                <div>
+                  <strong>Milda kokostensider</strong>
+                  <p>Rengör effektivt utan att störa hudens naturliga barriär.</p>
+                </div>
+              </div>
+
+              <div class="ing-card">
+                <div class="ing-icon">💧</div>
+                <div>
+                  <strong>Vegetabiliskt Glycerin & Betain</strong>
+                  <p>Binder fukt och gör att händerna förblir mjuka även efter många tvättar.</p>
+                </div>
+              </div>
+
+              <div class="ing-card">
+                <div class="ing-icon">🌿</div>
+                <div>
+                  <strong>Nordiska växtextrakt</strong>
+                  <p>Subtila, fräscha dofter hämtade från svensk natur som havstorn och vild salvia.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="safety-cert-badges">
+              <span class="cert-pill">✓ pH-balanserad (5.5)</span>
+              <span class="cert-pill">✓ Dermatologiskt testad</span>
+              <span class="cert-pill">✓ 100% Vegansk</span>
+              <span class="cert-pill">✓ Fri från sulfater & parabener</span>
+            </div>
+          </div>
+
+          <div class="ingredients-visual">
+            <div class="visual-quote-card">
+              <div class="user-avatar-circle">EL</div>
+              <blockquote class="user-quote">
+                ”Jag var ärligt talat skeptisk till om en tablett kunde ge en riktigt krämig skumtvål. Men SOAPLY känns
+                till och med mjukare mot huden än den dyra flytande tvålen vi hade förut. Och skåpet under tvättstället
+                är äntligen fritt från plastflaskor!”
+              </blockquote>
+              <div class="quote-author">
+                <strong>Elin Lindqvist, 34 år</strong>
+                <span>Småbarnsförälder & Kommunikatör, Stockholm</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: B2B Opportunity (Gym, Offices, Hotels) -->
+    <section class="b2b-section" id="b2b">
+      <div class="container">
+        <div class="b2b-card">
+          <div class="b2b-content">
+            <span class="section-kicker kicker-light">Företag & Verksamheter</span>
+            <h2 class="b2b-title">Vill ditt kontor, gym eller hotell minska plast och lagerkostnader?</h2>
+            <p class="b2b-desc">
+              För verksamheter utgör tunga tvåldunkar och flytande refillpåsar en onödig logistikkostnad och stjäl
+              värdefullt städutrymme. Med SOAPLYs storförpackningar (50–100 pack) sparar ni upp till 90% lagerplats och
+              får direkt företagsfaktura.
+            </p>
+            <div class="b2b-benefits">
+              <span>✓ Storköpsrabatter</span>
+              <span>✓ Leverans direkt till kontoret</span>
+              <span>✓ E-faktura / Klarna B2B</span>
+            </div>
+            <button class="btn btn-white btn-md" id="open-b2b-modal-btn">Begär företagsoffert</button>
+          </div>
+          <div class="b2b-badge-box">
+            <div class="b2b-stat">
+              <span class="stat-big">-90%</span>
+              <span class="stat-lbl">Mindre förvaringsyta i städskrubben</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: FAQ (Addressing Persona Friction Points) -->
+    <section class="faq-section" id="faq">
+      <div class="container max-w-narrow">
+
+        <div class="section-header text-center">
+          <span class="section-kicker">Frågor & Svar</span>
+          <h2 class="section-title">Allt du behöver veta om SOAPLY</h2>
+          <p class="section-lead">Här har vi samlat de vanligaste funderingarna kring hur våra tvåltabletter fungerar i
+            vardagen.</p>
+        </div>
+
+        <div class="faq-accordion" id="faq-accordion">
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Hur lång tid tar det innan tabletten har löst upp sig i kranvattnet?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Det tar bara cirka 3–5 minuter i vanligt ljummet kranvatten! Vår brusteknik är särskilt utvecklad för
+                att lösas upp snabbt utan att du behöver skaka flaskan kraftigt eller vänta i 40 minuter som hos vissa
+                andra märken.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Blir skumtvålen verkligen lika krämig som från en vanlig tvålflaska?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Ja, absolut! SOAPLYs återanvändbara pumpflaska har ett finmaskigt precisionsfilter som blandar
+                tvållösningen med luft i exakt rätt proportion. Resultatet är en sammetslen, fyllig skumtvål som känns
+                lyxigt och rengör händerna milt och effektivt.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Kan jag använda en vanlig tvålpump som jag redan har hemma?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                SOAPLY-tabletten ger en tunnflytande tvållösning som kräver en <em>skumpump</em> (foaming pump) för att
+                skapa den luftiga skumtvålen. Vårt startpaket innehåller en specialanpassad pumpflaska i tålig rPET eller
+                borstad metall som är designad för att hålla och återanvändas år efter år.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Hur levereras mina refills och vad kostar frakten?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Eftersom våra tabletter är torra och kompakta levereras de i platta, återvinningsbara papperskuvert
+                direkt ner i ditt vanliga brevinkast eller brevlåda. Du slipper hämta ut paket hos postombud! Fri frakt
+                ingår vid köp av startpaket och vid beställningar över 149 kr.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Hur fungerar er 60 dagars nöjd-kund-garanti?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Vi vill att du ska känna dig 100% trygg när du testar SOAPLY. Om du mot förmodan inte skulle vara helt
+                nöjd med upplevelsen eller skumtvålen under de första 60 dagarna, kontaktar du bara vår kundtjänst så
+                återbetalar vi pengarna – utan krångliga motfrågor.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Är produkten säker för barn och känslig hud?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Ja, alla våra tvålar är dermatologiskt testade och pH-balanserade (pH 5.5) för att skydda hudens
+                naturliga skyddsbarriär. Vi erbjuder även doftalternativet "Sensitiv Trio" som är 100% oparfymerat och
+                särskilt lämpligt för barn och allergiker.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Pre-Footer CTA Strip -->
+    <section class="cta-banner-section">
+      <div class="container text-center">
+        <h2 class="cta-banner-title">Gör ditt badrum plastfritt redan i veckan</h2>
+        <p class="cta-banner-sub">Beställ ditt startpaket idag med fri brevlådefrakt och 60 dagars nöjd-kund-garanti.
+        </p>
+        <a href="#services" class="btn btn-primary btn-lg">Kom igång med SOAPLY för 199 kr</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-col brand-col">
+          <div class="footer-brand">
+            <a href="index.html" class="brand-logo" style="color: var(--farg-vit-fast); text-decoration: none;">
+              <img src="assets/soaply-logo-transparent.png" alt="SOAPLY" class="brand-logo-img">
+            </a>
+          </div>
+          <p class="footer-tagline">
+            Sveriges smartaste hand- och duschtvål i tablettform. Fyll på med kranvatten. Minska plasten i badrummet.
+          </p>
+          <div class="payment-methods-row">
+            <span class="pay-chip">Swish</span>
+            <span class="pay-chip">Klarna</span>
+            <span class="pay-chip">Visa</span>
+            <span class="pay-chip">Mastercard</span>
+            <span class="pay-chip">Apple Pay</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Navigering</h4>
+          <ul class="footer-links">
+            <li><a href="#about">Om oss</a></li>
+            <li><a href="#services">Vårt sortiment</a></li>
+            <li><a href="#how-it-works">Hur det fungerar</a></li>
+            <li><a href="#calculator">Miljökalkylator</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+            <li><a href="sitemap.html">Webbplatskarta (Sitemap)</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Företag & Juridik</h4>
+          <ul class="footer-links">
+            <li><a href="#b2b">SOAPLY för Företag (B2B)</a></li>
+            <li><a href="#">Integritetspolicy (GDPR)</a></li>
+            <li><a href="#">Köpvillkor & Garanti</a></li>
+            <li><a href="#ingredients">Hållbarhetsdeklaration</a></li>
+            <li><a href="sitemap.xml" target="_blank">XML Sitemap</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col newsletter-col">
+          <h4 class="footer-heading">Få 10% på första köpet</h4>
+          <p class="newsletter-desc">Anmäl dig till vårt nyhetsbrev och få tips om plastfria rutiner samt 10% rabattkod direkt i inkorgen.</p>
+          <a href="#contact" class="btn btn-sm footer-discount-cta">Till rabattformulär ↑</a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 SOAPLY Nordic AB. Alla rättigheter förbehållna. Formulerad och utvecklad i Sverige.</p>
+        <p class="legal-disclaimer">All miljödata baseras på verifierad transportviktminskning jämfört med konventionell
+          300 ml engångstvål.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-out Shopping Cart Drawer -->
+  <div class="cart-backdrop" id="cart-backdrop"></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-hidden="true">
+    <div class="cart-drawer-header">
+      <h3 class="cart-drawer-title">Din varukorg</h3>
+      <button class="cart-close-btn" id="cart-close-btn" aria-label="Stäng varukorg">&times;</button>
+    </div>
+
+    <!-- Free Shipping Progress Bar -->
+    <div class="free-shipping-tracker">
+      <div class="tracker-text">
+        <span id="shipping-tracker-msg">🎉 Du har kvalificerat dig för <strong>fri brevlådefrakt!</strong></span>
+      </div>
+      <div class="shipping-progress-bar">
+        <div class="shipping-fill" id="shipping-progress-fill" style="width: 100%;"></div>
+      </div>
+    </div>
+
+    <div class="cart-drawer-body" id="cart-items-container">
+      <!-- Injected via JavaScript -->
+    </div>
+
+    <div class="cart-drawer-footer">
+      <div class="cart-summary-row">
+        <span>Delsumma:</span>
+        <span class="summary-val" id="cart-subtotal">199 kr</span>
+      </div>
+      <div class="cart-summary-row">
+        <span>Frakt:</span>
+        <span class="summary-val text-success" id="cart-shipping">0 kr (Fri frakt)</span>
+      </div>
+      <div class="cart-total-row">
+        <span>Totalt inkl. moms:</span>
+        <span class="cart-total-price" id="cart-total">199 kr</span>
+      </div>
+
+      <div class="checkout-actions">
+        <button class="btn btn-primary btn-block checkout-btn" id="checkout-btn">
+          <span>Gå till kassan med Klarna / Swish</span>
+        </button>
+      </div>
+
+      <div class="cart-security-badges">
+        <span>🔒 Krypterad säker betalning</span>
+        <span>⚡️ Snabb leverans med PostNord</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- B2B Inquiry Modal -->
+  <div class="modal-backdrop" id="b2b-modal-backdrop"></div>
+  <div class="modal-dialog" id="b2b-modal" role="dialog" aria-modal="true" aria-labelledby="b2b-modal-title">
+    <div class="modal-header">
+      <h3 id="b2b-modal-title">Begär offert för företag & verksamheter</h3>
+      <button class="modal-close-btn" id="b2b-close-btn" aria-label="Stäng modal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <p class="modal-intro">Sänk era inköps- och lagerkostnader för handtvål med upp till 60%. Fyll i era uppgifter så
+        återkommer vi inom 24 timmar med ett skräddarsytt förslag.</p>
+      <form id="b2b-form">
+        <div class="form-group">
+          <label for="b2b-company">Företagsnamn / Organisation *</label>
+          <input type="text" id="b2b-company" required class="form-input" placeholder="Ex. Scandic Hotels AB">
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="b2b-name">Kontaktperson *</label>
+            <input type="text" id="b2b-name" required class="form-input" placeholder="För- och efternamn">
+          </div>
+          <div class="form-group">
+            <label for="b2b-email">E-post *</label>
+            <input type="email" id="b2b-email" required class="form-input" placeholder="namn@foretag.se">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="b2b-locations">Ungefärligt antal tvättställ / toaletter</label>
+          <select id="b2b-locations" class="form-input">
+            <option value="1-5">1–5 tvättställ (Mindre kontor)</option>
+            <option value="6-20">6–20 tvättställ (Medelstort kontor/gym)</option>
+            <option value="20+">20+ tvättställ (Hotell, anläggning, kedja)</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Skicka offertförfrågan</button>
+      </form>
+      <div id="b2b-feedback" class="form-feedback"></div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

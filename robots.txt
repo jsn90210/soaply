@@ -1,0 +1,6 @@
+# robots.txt for SOAPLY Nordic
+User-agent: *
+Allow: /
+
+# Sitemap-referens för sökmotorer
+Sitemap: https://soaply.se/sitemap.xml

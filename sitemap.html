@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webbplatskarta (Sitemap) – SOAPLY Nordic</title>
+  <meta name="description" content="Komplett webbplatskarta och sitemap för SOAPLY. Hitta direkt till startpaket, refills, miljökalkylator, guider, företagsinformation och köpvillkor.">
+  <meta name="robots" content="index, follow">
+  
+  <!-- OpenGraph / Social Meta -->
+  <meta property="og:title" content="Webbplatskarta (Sitemap) – SOAPLY Nordic">
+  <meta property="og:description" content="Strukturerad översikt över hela SOAPLY:s webbplats, sortiment, funktioner och hållbarhetsguider.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Fraunces, Plus Jakarta Sans & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css?v=morkt-1">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
+</head>
+<body>
+
+  <!-- Announcement Bar -->
+  <aside class="announcement-bar" id="announcement-bar">
+    <div class="container announcement-content">
+      <span class="announcement-badge">Höstkampanj</span>
+      <p>Fri brevlådefrakt vid köp av startpaket • 1–2 dagars leverans • 60 dagars nöjd-kund-garanti</p>
+    </div>
+  </aside>
+
+  <!-- Sticky Header / Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo" aria-label="SOAPLY Hem">
+        <img src="assets/soaply-logo-transparent.png" alt="soaply" class="brand-logo-img">
+      </a>
+
+      <nav class="desktop-nav" aria-label="Huvudmeny">
+        <ul class="nav-list">
+          <li><a href="index.html#how-it-works" class="nav-link">Hur det fungerar</a></li>
+          <li><a href="index.html#products" class="nav-link">Startpaket & Refills</a></li>
+          <li><a href="index.html#comparison" class="nav-link">Jämförelse</a></li>
+          <li><a href="index.html#calculator" class="nav-link">Miljökalkylator</a></li>
+          <li><a href="index.html#b2b" class="nav-link">För Företag</a></li>
+          <li><a href="index.html#faq" class="nav-link">Vanliga frågor</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="index.html" class="btn btn-outline btn-sm">← Tillbaka till butiken</a>
+        <a href="index.html#products" class="btn btn-primary btn-sm header-cta">Beställ Startkit (199 kr)</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="sitemap-main" id="main-content">
+    <div class="container">
+      
+      <!-- Breadcrumb Navigation -->
+      <nav class="sitemap-breadcrumb" aria-label="Brödsmulor">
+        <a href="index.html">Hem</a>
+        <span class="separator">/</span>
+        <span aria-current="page">Webbplatskarta (Sitemap)</span>
+      </nav>
+
+      <!-- Sitemap Hero Header -->
+      <section class="sitemap-hero">
+        <div class="sitemap-hero-content">
+          <div class="hero-pill-badge">
+            <span class="pulse-dot"></span>
+            <span>Webbplatsstruktur & Indexering</span>
+          </div>
+          <h1 class="sitemap-title">Webbplatskarta (Sitemap)</h1>
+          <p class="sitemap-subtitle">
+            Hitta direkt till alla sektioner, produkter, interaktiva verktyg, köpvillkor och företagsinformation på SOAPLY. Använd sökfältet eller kategoriknapparna för att snabbt navigera.
+          </p>
+
+          <div class="sitemap-controls">
+            <div class="sitemap-search-wrap">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <input type="search" id="sitemap-search-input" class="sitemap-search-input" placeholder="Sök efter sida, produkt eller ämne (t.ex. refill, garanti, kalkylator)..." aria-label="Sök i webbplatskarta">
+            </div>
+
+            <div class="sitemap-filter-pills" role="tablist" aria-label="Filtrera kategorier">
+              <button class="sitemap-filter-btn active" data-category="all" role="tab" aria-selected="true">Alla kategorier (<span id="total-count">24</span>)</button>
+              <button class="sitemap-filter-btn" data-category="main" role="tab" aria-selected="false">Huvudsidor</button>
+              <button class="sitemap-filter-btn" data-category="products" role="tab" aria-selected="false">Produktsortiment</button>
+              <button class="sitemap-filter-btn" data-category="tools" role="tab" aria-selected="false">Verktyg & Tjänster</button>
+              <button class="sitemap-filter-btn" data-category="b2b" role="tab" aria-selected="false">Företagslösningar</button>
+              <button class="sitemap-filter-btn" data-category="service" role="tab" aria-selected="false">Kundservice & Köpvillkor</button>
+              <button class="sitemap-filter-btn" data-category="technical" role="tab" aria-selected="false">SEO & Tekniskt</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Metadata & Info Bar -->
+      <aside class="sitemap-stats-bar">
+        <div class="sitemap-stats-text">
+          Visar <strong id="visible-count">24</strong> av <strong>24</strong> länkar fördelade över <strong>6 kategorier</strong>. Senast uppdaterad: <strong>September 2026</strong>.
+        </div>
+        <a href="sitemap.xml" target="_blank" class="sitemap-xml-link" title="Öppna maskinläsbar XML-sitemap">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+          </svg>
+          <span>Öppna XML-sitemap (sitemap.xml)</span>
+        </a>
+      </aside>
+
+      <!-- Sitemap Content Grid -->
+      <div class="sitemap-grid" id="sitemap-grid">
+        
+        <!-- Kategori 1: Huvudsidor & Kärnpresentation -->
+        <article class="sitemap-card" data-category="main">
+          <header class="sitemap-card-header">
+            <div class="sitemap-card-title-group">
+              <div class="sitemap-card-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                  <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                </svg>
+              </div>
+              <h2 class="sitemap-card-title">Huvudsidor & Guider</h2>
+            </div>
+            <span class="sitemap-badge">4 sidor</span>
+          </header>
+
+          <ul class="sitemap-list">
+            <li class="sitemap-item" data-keywords="start hem landningssida badrum kranvatten soaply introduktion">
+              <a href="index.html#hero" class="sitemap-link-card">
+                <div class="sitemap-link-details">
+                  <span class="sitemap-link-name">
+                    Startsida & Presentation
+                    <span class="sitemap-link-tag">Start</span>
+                  </span>
+                  <span class="sitemap-link-desc">Fyll på med kranvatten. Minska plasten i badrummet.</span>
+                </div>
+                <span class="sitemap-link-arrow">→</span>
+              </a>
+            </li>
+
+            <li class="sitemap-item" data-keywords="hur det fungerar steg kranvatten tablett skumtvål upplösning 3 minuter instruktion">
+              <a href="index.html#how-it-works" class="sitemap-link-card">
+                <div class="sitemap-link-details">
+                  <span class="sitemap-link-name">
+                    Hur det fungerar
+                    <span class="sitemap-link-tag">3 steg</span>
+                  </span>
+                  <span class="sitemap-link-desc">1 tablett + 300 ml kranvatten = silkeslen skumtvål på 3–5 minuter.</span>
+                </div>
+                <span class="sitemap-link-arrow">→</span>
+              </a>
+            </li>
+
+            <li class="sitemap-item" data-keywords="jämförelse traditionell tvål engångsplast fördelar miljö transport koldioxid ekonomi">
+              <a href="index.html#comparison" class="sitemap-link-card">
+                <div class="sitemap-link-details">
+                  <span class="sitemap-link-name">
+                    Jämförelse & Fördelar
+                    <span class="sitemap-link-tag">Analys</span>
+                  </span>
+                  <span class="sitemap-link-desc">SOAPLY vs traditionell handtvål i engångsplast.</span>
+                </div>
+                <span class="sitemap-link-arrow">→</span>
+              </a>
+            </li>
+
+            <li class="sitemap-item" data-keywords="ingredienser dermatologiskt pH 5.5 växttensider glycerin skonsam barn allergi formulering">
+              <a href="index.html#ingredients" class="sitemap-link-card">
+                <div class="sitemap-link-details">
+                  <span class="sitemap-link-name">
+                    Ingredienser & Skonsam Formula
+                    <span class="sitemap-link-tag">Säkerhet</span>
+                  </span>
+                  <span class="sitemap-link-desc">Växtbaserade tensider, pH 5.5 och återfuktande glycerin.</span>
+                </div>
+                <span class="sitemap-link-arrow">→</span>
+              </a>
+            </li>
+          </ul>
+        </article>
+
+        <!-- Kategori 2: Produktsortiment & Beställning -->
+        <article class="sitemap-card" data-category="products">
+          <header class="sitemap-card-header">
+            <div class="sitemap-card-title-group">
+              <div class="sitemap-card-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                  <line x1="3" y1="6" x2="21" y2="6"></line>
+                  <path d="M16 10a4 4 0 0 1-8 0"></path>
+                </svg>
+              </div>
+              <h2 class="sitemap-card-title">Produktsortiment</h2>
+            </div>
+            <span class="sitemap-badge">4 artiklar</span>
+          </header>
+
+          <ul class="sitemap-list">
+            <li class="sitemap-item" data-keywords="startpaket flaska pump 3 refills nordic sand pure white slate grey 199 kr köp">
+              <a href="index.html#card-starter-kit" class="sitemap-link-card">
+                <div class="sitemap-link-details">
+                  <span class="sitemap-link-name">
+                    SOAPLY Startpaket Original
+                    <span class="sitemap-link-tag tag-orange">199 kr</span>
+                  </span>
+                  <span class="sitemap-link-desc">Inkluderar premium skumpumpflaska och 3 doftrefills (räcker 3–4 mån).</span>
+                </div>
+                <span class="sitemap-link-arrow">→</span>
+              </a>
+            </li>
+
+            <li class="sitemap-item" data-keywords="refill 6-pack tabletter citrongräs eukalyptus lavendel bergamott sensitiv oparfymerad 89 kr">
+              <a href="index.html#card-refill-6" class="sitemap-link-card">
+                <div class="sitemap-link-details">
+                  <span class="sitemap-link-name">
+                    Refill 6-pack
+                    <span class="sitemap-link-tag">89 kr</span>
+                  </span>
+                  <span class="sitemap-link-desc">6 kompakta tabletter. Ger 1,8 liter färdig skumtvål direkt i brevlådan.</span>
+                </div>
+                <span class="sitemap-link-arrow">→</span>
+              </a>
+            </li>
+
+            <li class="sitemap-item" data-keywords="familjepaket 18-pack storförpackning årspaket 229 kr mängdrabatt fri frakt">
+              <a href="index.html#card-refill-18" class="sitemap-link-card">
+                <div class="sitemap-link-details">
+                  <span class="sitemap-link-name">
+                    Familjepaket (18 Refills)
+                    <span class="sitemap-link-tag tag-orange">229 kr</span>
+                  </span>
+                  <span class="sitemap-link-desc">Motsvarar 5,4 liter tvål. Vårt mest prisvärda alternativ per handtvätt.</span>
+                </div>
+                <span class="sitemap-link-arrow">→</span>
+              </a>
+            </li>
+
+            <li class="sitemap-item" data-keywords="dofter eteriska oljor parfymfri sensitiv trio citrongräs lavendel bergamott allergivänlig">
+              <a href="index.html#products" class="sitemap-link-card">
+                <div class="sitemap-link-details">
+                  <span class="sitemap-link-name">
+                    Doftguide & Formuleringar
+                    <span class="sitemap-link-tag">Sortiment</span>
+                  </span>
+                  <span class="sitemap-link-desc">Välj mellan Nordic Crisp, Blomsterbris och Sensitiv Oparfymerad.</span>
+                </div>
+                <span class="sitemap-link-arrow">→</span>
+              </a>
+            </li>
+          </ul>
+        </article>
+
+        <!-- Kategori 3: Interaktiva Verktyg & Tjänster -->
+        <article class="sitemap-card" data-category="tools">
+          <header class="sitemap-card-header">
+            <div class="sitemap-card-title-group">
+              <div class="sitemap-card-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="4" y1="21" x2="4" y2="14"></line>
+                  <line x1="4" y1="10" x2="4" y2="3"></line>
+                  <line x1="12" y1="21" x2="12" y2="12"></line>
+                  <line x1="12" y1="8" x2="12" y2="3"></line>
+                  <line x1="20" y1="21" x2="20" y2="16"></line>
+                  <line x1="20" y1="12" x2="20" y2="3"></line>
+                  <line x1="1" y1="14" x2="7" y2="14"></line>
+                  <line x1="9" y1="8" x2="15" y2="8"></line>
+                  <line x1="17" y1="16" x2="23" y2="16"></line>
+                </svg>
+              </div>
+              <h2 class="sitemap-card-title">Interaktiva Funktioner</h2>
+            </div>
+            <span class="sitemap-badge">4 verktyg</span>
+          </header>
+
+          <ul class="sitemap-list">
+            <li class="sitemap-item" data-keywords="miljökalkylator kalkylator besparing plast vatten pengar hushåll slider beräkna">
+              <a href="index.html#calculator" class="sitemap-link-card">
+                <div class="sitemap-link-details">
+                  <span class="sitemap-link-name">
+                    Interaktiv Miljökalkylator
+                    <span class="sitemap-link-tag tag-blue">Kalkylator</span>
+                  </span>
+                  <span class="sitemap-link-desc">Beräkna hur många kilo vatten och plastflaskor ditt hushåll sparar.</span>
+                </div>
+                <span class="sitemap-link-arrow">→</span>
+              </a>
+            </li>
+
+            <li class="sitemap-item" data-keywords="stegväljare animation upplösningsförlopp 300 ml skumpump förhandsvisning">
+              <a href="index.html#how-it-works" class="sitemap-link-card">
+                <div class="sitemap-link-details">
+                  <span class="sitemap-link-name">
+                    Interaktiv Steg-för-steg Guide
+                    <span class="sitemap-link-tag tag-blue">Interaktiv</span>
+                  </span>
+                  <span class="sitemap-link-desc">Klicka genom de tre stegen och se hur tabletten omvandlas till skumtvål.</span>
+                </div>
+                <span class="sitemap-link-arrow">→</span>
+              </a>
+            </li>
+
+            <li class="sitemap-item" data-keywords="varukorg kassa checkout fraktindikator fri frakt klarna swish drawer sidopanel">
+              <a href="index.html#products" class="sitemap-link-card">
+                <div class="sitemap-link-details">
+                  <span class="sitemap-link-name">
+                    Varukorg & Fri Frakt-Mätare
+                    <span class="sitemap-link-tag">Kassa</span>
+                  </span>
+                  <span class="sitemap-link-desc">Automatisk fraktfri-mätare, Swish- och Klarna-snabbkassa.</span>
+                </div>
+                <span class="sitemap-link-arrow">→</span>
+              </a>
+            </li>
+
+            <li class="sitemap-item" data-keywords="nyhetsbrev rabatt 10 procent rabattkod vardagslugn10 anmälan erbjudande">
+              <a href="index.html#newsletter-form" class="sitemap-link-card">
+                <div class="sitemap-link-details">
+                  <span class="sitemap-link-name">
+                    Nyhetsbrev & 10% Rabattkod
+                    <span class="sitemap-link-tag tag-orange">10% Rabatt</span>
+                  </span>
+                  <span class="sitemap-link-desc">Registrera din e-post och få 10% välkomstrabatt på din första order.</span>
+                </div>
+                <span class="sitemap-link-arrow">→</span>
+              </a>
+            </li>
+          </ul>
+        </article>
+
+        <!-- Kategori 4: Företagslösningar (B2B) -->
+        <article class="sitemap-card" data-category="b2b">
+          <header class="sitemap-card-header">
+            <div class="sitemap-card-title-group">
+              <div class="sitemap-card-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+              </div>
+              <h2 class="sitemap-card-title">Företagslösningar (B2B)</h2>
+            </div>
+            <span class="sitemap-badge">3 sektioner</span>
+          </header>
+
+          <ul class="sitemap-list">
+            <li class="sitemap-item" data-keywords="företag b2b kontor hotell gym fastighet tvättställ hygien toaletter">
+              <a href="index.html#b2b" class="sitemap-link-card">
+                <div class="sitemap-link-details">
+                  <span class="sitemap-link-name">
+                    SOAPLY för Företag
+                    <span class="sitemap-link-tag">B2B</span>
+                  </span>
+                  <span class="sitemap-link-desc">Hållbar handtvål för kontor, gym, hotell och restauranger.</span>
+                </div>
+                <span class="sitemap-link-arrow">→</span>
+              </a>
+            </li>
+
+            <li class="sitemap-item" data-keywords="offert offertförfrågan b2b offertformulär volympris grossist storkund">
+              <a href="index.html#b2b" class="sitemap-link-card">
+                <div class="sitemap-link-details">
+                  <span class="sitemap-link-name">
+                    Begär Företagsoffert
+                    <span class="sitemap-link-tag tag-blue">Formulär</span>
+                  </span>
+                  <span class="sitemap-link-desc">Få ett skräddarsytt prisförslag med upp till 60% sänkta kostnader.</span>
+                </div>
+                <span class="sitemap-link-arrow">→</span>
+              </a>
+            </li>
+
+            <li class="sitemap-item" data-keywords="csrd hållbarhetsrapport esg miljöredovisning koldioxidutsläpp transportvikt lageryta">
+              <a href="index.html#b2b" class="sitemap-link-card">
+                <div class="sitemap-link-details">
+                  <span class="sitemap-link-name">
+                    Miljökalkyler för CSRD & ESG
+                    <span class="sitemap-link-tag">Hållbarhet</span>
+                  </span>
+                  <span class="sitemap-link-desc">Verifierbara dataunderlag för minskad plast- och transportbelastning.</span>
+                </div>
+                <span class="sitemap-link-arrow">→</span>
+              </a>
+            </li>
+          </ul>
+        </article>
+
+        <!-- Kategori 5: Kundservice, Leverans & Trygghet -->
+        <article class="sitemap-card" data-category="service">
+          <header class="sitemap-card-header">
+            <div class="sitemap-card-title-group">
+              <div class="sitemap-card-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <h2 class="sitemap-card-title">Kundservice & Köpvillkor</h2>
+            </div>
+            <span class="sitemap-badge">5 punkter</span>
+          </header>
+
+          <ul class="sitemap-list">
+            <li class="sitemap-item" data-keywords="vanliga frågor faq frågor svar skumpump dosering upplösning hållbarhet">
+              <a href="index.html#faq" class="sitemap-link-card">
+                <div class="sitemap-link-details">
+                  <span class="sitemap-link-name">
+                    Vanliga frågor & svar (FAQ)
+                    <span class="sitemap-link-tag">FAQ</span>
+                  </span>
+                  <span class="sitemap-link-desc">Svar om skumpumpen, leveranser, ingredienser och garanti.</span>
+                </div>
+                <span class="sitemap-link-arrow">→</span>
+              </a>
+            </li>
+
+            <li class="sitemap-item" data-keywords="frakt leverans brevinkast postnord postombud fri frakt 1-2 dagar">
+              <a href="index.html#faq" class="sitemap-link-card">
+                <div class="sitemap-link-details">
+                  <span class="sitemap-link-name">
+                    Frakt & Brevlådeleverans
+                    <span class="sitemap-link-tag">PostNord</span>
+                  </span>
+                  <span class="sitemap-link-desc">Fri leverans ner i brevlådan vid köp av startpaket eller över 149 kr.</span>
+                </div>
+                <span class="sitemap-link-arrow">→</span>
+              </a>
+            </li>
+
+            <li class="sitemap-item" data-keywords="nöjd kund garanti 60 dagar prova riskfritt pengarna tillbaka retur">
+              <a href="index.html#faq" class="sitemap-link-card">
+                <div class="sitemap-link-details">
+                  <span class="sitemap-link-name">
+                    60 Dagars Nöjd-kund-garanti
+                    <span class="sitemap-link-tag tag-orange">Garanti</span>
+                  </span>
+                  <span class="sitemap-link-desc">Prova SOAPLY hemma i 60 dagar. Inte nöjd? Full återbetalning direkt.</span>
+                </div>
+                <span class="sitemap-link-arrow">→</span>
+              </a>
+            </li>
+
+            <li class="sitemap-item" data-keywords="betalsätt swish klarna visa mastercard faktura säker betalning">
+              <a href="index.html#site-footer" class="sitemap-link-card">
+                <div class="sitemap-link-details">
+                  <span class="sitemap-link-name">
+                    Trygga Betalningsmetoder
+                    <span class="sitemap-link-tag">Swish & Klarna</span>
+                  </span>
+                  <span class="sitemap-link-desc">Betala enkelt med Swish, Klarna faktura, kort eller Apple Pay.</span>
+                </div>
+                <span class="sitemap-link-arrow">→</span>
+              </a>
+            </li>
+
+            <li class="sitemap-item" data-keywords="kontakt kundservice support e-post returadress reklamation">
+              <a href="index.html#site-footer" class="sitemap-link-card">
+                <div class="sitemap-link-details">
+                  <span class="sitemap-link-name">
+                    Kontakt & Kundsupport
+                    <span class="sitemap-link-tag">Support</span>
+                  </span>
+                  <span class="sitemap-link-desc">SOAPLY Nordic AB support och kundservice.</span>
+                </div>
+                <span class="sitemap-link-arrow">→</span>
+              </a>
+            </li>
+          </ul>
+        </article>
+
+        <!-- Kategori 6: SEO, Tekniska filer & Juridik -->
+        <article class="sitemap-card" data-category="technical">
+          <header class="sitemap-card-header">
+            <div class="sitemap-card-title-group">
+              <div class="sitemap-card-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h2 class="sitemap-card-title">SEO & Juridik</h2>
+            </div>
+            <span class="sitemap-badge">4 resurser</span>
+          </header>
+
+          <ul class="sitemap-list">
+            <li class="sitemap-item" data-keywords="sitemap.xml xml sitemap sökmotorer google indexering urlset crawler">
+              <a href="sitemap.xml" target="_blank" class="sitemap-link-card">
+                <div class="sitemap-link-details">
+                  <span class="sitemap-link-name">
+                    sitemap.xml
+                    <span class="sitemap-link-tag tag-blue">XML</span>
+                  </span>
+                  <span class="sitemap-link-desc">Officiell XML-sitemap enligt sitemaps.org för sökmotorers robotar.</span>
+                </div>
+                <span class="sitemap-link-arrow">↗</span>
+              </a>
+            </li>
+
+            <li class="sitemap-item" data-keywords="robots.txt crawl direktiv user-agent robotar indexering">
+              <a href="robots.txt" target="_blank" class="sitemap-link-card">
+                <div class="sitemap-link-details">
+                  <span class="sitemap-link-name">
+                    robots.txt
+                    <span class="sitemap-link-tag">Robots</span>
+                  </span>
+                  <span class="sitemap-link-desc">Crawl-instruktioner och sitemap-angivelse för webbcrawlers.</span>
+                </div>
+                <span class="sitemap-link-arrow">↗</span>
+              </a>
+            </li>
+
+            <li class="sitemap-item" data-keywords="integritetspolicy gdpr personuppgifter integritet dataskydd cookies kakor">
+              <a href="index.html#site-footer" class="sitemap-link-card">
+                <div class="sitemap-link-details">
+                  <span class="sitemap-link-name">
+                    Integritetspolicy (GDPR)
+                    <span class="sitemap-link-tag">GDPR</span>
+                  </span>
+                  <span class="sitemap-link-desc">Information om personuppgiftsbehandling och datasäkerhet.</span>
+                </div>
+                <span class="sitemap-link-arrow">→</span>
+              </a>
+            </li>
+
+            <li class="sitemap-item" data-keywords="hållbarhetsdeklaration ppwr eu förpackningar transportberäkningar certifikat">
+              <a href="index.html#ingredients" class="sitemap-link-card">
+                <div class="sitemap-link-details">
+                  <span class="sitemap-link-name">
+                    Hållbarhetsdeklaration & PPWR
+                    <span class="sitemap-link-tag">Miljö</span>
+                  </span>
+                  <span class="sitemap-link-desc">Materialdeklaration och verifierade transportviktsberäkningar.</span>
+                </div>
+                <span class="sitemap-link-arrow">→</span>
+              </a>
+            </li>
+          </ul>
+        </article>
+
+        <!-- Tomt resultat om sökningen inte matchar något -->
+        <div class="sitemap-empty-state" id="sitemap-empty-state">
+          <h3>Inga länkar matchade din sökning</h3>
+          <p>Testa att söka på ett annat ord som exempelvis <em>refill</em>, <em>kalkylator</em>, <em>frakt</em> eller <em>B2B</em>.</p>
+          <button class="btn btn-primary btn-sm" id="reset-filter-btn">Återställ sökning</button>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div class="footer-col brand-col">
+          <div class="footer-brand">
+            <a href="index.html" class="brand-logo" style="color: #FFFFFF; text-decoration: none;">
+              <img src="assets/soaply-logo-transparent.png" alt="SOAPLY" class="brand-logo-img">
+            </a>
+          </div>
+          <p class="footer-tagline">
+            Sveriges smartaste hand- och duschtvål i tablettform. Fyll på med kranvatten. Minska plasten i badrummet.
+          </p>
+          <div class="payment-methods-row">
+            <span class="pay-chip">Swish</span>
+            <span class="pay-chip">Klarna</span>
+            <span class="pay-chip">Visa</span>
+            <span class="pay-chip">Mastercard</span>
+            <span class="pay-chip">Apple Pay</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Navigering</h4>
+          <ul class="footer-links">
+            <li><a href="index.html#how-it-works">Hur det fungerar</a></li>
+            <li><a href="index.html#products">Startpaket</a></li>
+            <li><a href="index.html#products">Refillförpackningar</a></li>
+            <li><a href="index.html#calculator">Miljökalkylator</a></li>
+            <li><a href="index.html#comparison">Jämförelse</a></li>
+            <li><a href="sitemap.html" style="font-weight: 600; color: var(--color-accent-sage);">Webbplatskarta (Sitemap)</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Företag & Juridik</h4>
+          <ul class="footer-links">
+            <li><a href="index.html#b2b">SOAPLY för Företag (B2B)</a></li>
+            <li><a href="index.html#site-footer">Integritetspolicy (GDPR)</a></li>
+            <li><a href="index.html#site-footer">Köpvillkor & Garanti</a></li>
+            <li><a href="index.html#ingredients">Hållbarhetsdeklaration</a></li>
+            <li><a href="sitemap.xml">XML Sitemap</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col newsletter-col">
+          <h4 class="footer-heading">Få 10% på första köpet</h4>
+          <p class="newsletter-desc">Anmäl dig till vårt nyhetsbrev och få tips om plastfria rutiner samt 10% rabattkod direkt i inkorgen.</p>
+          <a href="index.html#newsletter-form" class="btn btn-outline btn-sm" style="display: inline-block;">Gå till anmälan</a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 SOAPLY Nordic AB. Alla rättigheter förbehållna. Formulerad och utvecklad i Sverige.</p>
+        <p class="legal-disclaimer">All miljödata baseras på verifierad transportviktminskning jämfört med konventionell 300 ml engångstvål.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sitemap Client Interactivity Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const searchInput = document.getElementById('sitemap-search-input');
+      const filterBtns = document.querySelectorAll('.sitemap-filter-btn');
+      const cards = document.querySelectorAll('.sitemap-card');
+      const items = document.querySelectorAll('.sitemap-item');
+      const emptyState = document.getElementById('sitemap-empty-state');
+      const resetBtn = document.getElementById('reset-filter-btn');
+      const visibleCountEl = document.getElementById('visible-count');
+      const totalCountEl = document.getElementById('total-count');
+
+      totalCountEl.textContent = items.length;
+
+      let activeCategory = 'all';
+      let searchQuery = '';
+
+      function filterItems() {
+        let visibleCount = 0;
+
+        cards.forEach(card => {
+          const cardCategory = card.getAttribute('data-category');
+          const categoryMatches = (activeCategory === 'all' || activeCategory === cardCategory);
+          
+          let visibleInCard = 0;
+          const cardItems = card.querySelectorAll('.sitemap-item');
+
+          cardItems.forEach(item => {
+            const keywords = (item.getAttribute('data-keywords') || '').toLowerCase();
+            const textContent = item.textContent.toLowerCase();
+            const queryMatches = !searchQuery || keywords.includes(searchQuery) || textContent.includes(searchQuery);
+
+            if (categoryMatches && queryMatches) {
+              item.classList.remove('filtered-out');
+              visibleCount++;
+              visibleInCard++;
+            } else {
+              item.classList.add('filtered-out');
+            }
+          });
+
+          // Show or hide entire card depending on whether any items match
+          if (visibleInCard > 0) {
+            card.style.display = '';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+
+        visibleCountEl.textContent = visibleCount;
+
+        if (visibleCount === 0) {
+          emptyState.classList.add('active');
+        } else {
+          emptyState.classList.remove('active');
+        }
+      }
+
+      // Live search input
+      searchInput.addEventListener('input', (e) => {
+        searchQuery = e.target.value.trim().toLowerCase();
+        filterItems();
+      });
+
+      // Filter category buttons
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          filterBtns.forEach(b => {
+            b.classList.remove('active');
+            b.setAttribute('aria-selected', 'false');
+          });
+          btn.classList.add('active');
+          btn.setAttribute('aria-selected', 'true');
+          activeCategory = btn.getAttribute('data-category');
+          filterItems();
+        });
+      });
+
+      // Reset button in empty state
+      if (resetBtn) {
+        resetBtn.addEventListener('click', () => {
+          searchInput.value = '';
+          searchQuery = '';
+          const allBtn = document.querySelector('.sitemap-filter-btn[data-category="all"]');
+          if (allBtn) allBtn.click();
+        });
+      }
+    });
+  </script>
+
+</body>
+</html>

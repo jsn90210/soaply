@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Startsida & Huvudpresentation -->
+  <url>
+    <loc>https://soaply.se/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Visuell HTML Webbplatskarta -->
+  <url>
+    <loc>https://soaply.se/sitemap.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Hur det fungerar (3-stegs guide) -->
+  <url>
+    <loc>https://soaply.se/#how-it-works</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Startpaket & Refiller -->
+  <url>
+    <loc>https://soaply.se/#products</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- Jämförelse: SOAPLY vs Traditionell Tvål -->
+  <url>
+    <loc>https://soaply.se/#comparison</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Interaktiv Miljökalkylator -->
+  <url>
+    <loc>https://soaply.se/#calculator</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Ingredienser, Innehåll & Säkerhet -->
+  <url>
+    <loc>https://soaply.se/#ingredients</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Företagslösningar (B2B) -->
+  <url>
+    <loc>https://soaply.se/#b2b</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Om oss & Filosofi -->
+  <url>
+    <loc>https://soaply.se/#about</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Vårt sortiment & Produkter -->
+  <url>
+    <loc>https://soaply.se/#services</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- Kontakt & Kundservice -->
+  <url>
+    <loc>https://soaply.se/#contact</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- Vanliga frågor och svar (FAQ) -->
+  <url>
+    <loc>https://soaply.se/#faq</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+</urlset>

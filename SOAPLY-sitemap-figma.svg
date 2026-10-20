@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1490" viewBox="0 0 1560 1490"><rect width="1560" height="1490" fill="#F6F8F5"/>
+<text x="60" y="63" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#203D34">SOAPLY / Sitemap</text>
+<text x="60" y="98" font-family="Arial, sans-serif" font-size="18" font-weight="400" fill="#203D34">Baserad på den inskickade HTML-koden • Struktur för grupparbetet</text>
+<rect x="570" y="140" width="420" height="88" rx="12" fill="#214F40" stroke="#214F40" stroke-width="1.5"/>
+<text x="590" y="170" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF">SOAPLY – Startsida</text>
+<text x="590" y="196" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#DDEDE4">En landningssida med avsnitt och paneler</text>
+<path d="M780 228 L780 263" fill="none" stroke="#9AAFA5" stroke-width="2"/>
+<path d="M290 263 L1270 263" fill="none" stroke="#9AAFA5" stroke-width="2"/>
+<path d="M290 263 L290 295" fill="none" stroke="#9AAFA5" stroke-width="2"/>
+<path d="M780 263 L780 295" fill="none" stroke="#9AAFA5" stroke-width="2"/>
+<path d="M1270 263 L1270 295" fill="none" stroke="#9AAFA5" stroke-width="2"/>
+<text x="60" y="325" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#203D34">01  Avsnitt på startsidan</text>
+<text x="60" y="353" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#203D34">I den ordning de förekommer på sidan</text>
+<text x="550" y="325" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#203D34">02  Funktioner och paneler</text>
+<text x="550" y="353" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#203D34">Kopplade till startsidans innehåll</text>
+<text x="1040" y="325" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#203D34">03  Sidfotslänkar</text>
+<text x="1040" y="353" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#203D34">Länkade resurser och platshållare</text>
+<rect x="60" y="380" width="460" height="92" rx="12" fill="#FFFFFF" stroke="#C4D5CA" stroke-width="1.5"/>
+<text x="80" y="410" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#203D34">Introduktion / Hero</text>
+<text x="80" y="436" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Presentation och knappar till produkter</text>
+<text x="80" y="459" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">och ”Hur det fungerar”</text>
+<path d="M290 472 L290 486" fill="none" stroke="#9AAFA5" stroke-width="2"/>
+<rect x="60" y="486" width="460" height="77" rx="12" fill="#FFFFFF" stroke="#C4D5CA" stroke-width="1.5"/>
+<text x="80" y="516" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#203D34">Faktaruta</text>
+<text x="80" y="542" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Produkt- och hållbarhetspåståenden</text>
+<path d="M290 563 L290 577" fill="none" stroke="#9AAFA5" stroke-width="2"/>
+<rect x="60" y="577" width="460" height="77" rx="12" fill="#FFFFFF" stroke="#C4D5CA" stroke-width="1.5"/>
+<text x="80" y="607" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#203D34">Hur det fungerar</text>
+<text x="80" y="633" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Tre steg: vatten → tablett → skum</text>
+<path d="M290 654 L290 668" fill="none" stroke="#9AAFA5" stroke-width="2"/>
+<rect x="60" y="668" width="460" height="77" rx="12" fill="#FFFFFF" stroke="#C4D5CA" stroke-width="1.5"/>
+<text x="80" y="698" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#203D34">Jämförelse</text>
+<text x="80" y="724" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">SOAPLY och andra alternativ</text>
+<path d="M290 745 L290 759" fill="none" stroke="#9AAFA5" stroke-width="2"/>
+<rect x="60" y="759" width="460" height="77" rx="12" fill="#FFFFFF" stroke="#C4D5CA" stroke-width="1.5"/>
+<text x="80" y="789" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#203D34">Miljökalkylator</text>
+<text x="80" y="815" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Reglage för hushåll och visade beräkningar</text>
+<path d="M290 836 L290 850" fill="none" stroke="#9AAFA5" stroke-width="2"/>
+<rect x="60" y="850" width="460" height="92" rx="12" fill="#FFFFFF" stroke="#C4D5CA" stroke-width="1.5"/>
+<text x="80" y="880" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#203D34">Startpaket &amp; Refills</text>
+<text x="80" y="906" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Startpaket • Refill 6-pack</text>
+<text x="80" y="929" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Familjepaket med 18 refills</text>
+<path d="M290 942 L290 956" fill="none" stroke="#9AAFA5" stroke-width="2"/>
+<rect x="60" y="956" width="460" height="77" rx="12" fill="#FFFFFF" stroke="#C4D5CA" stroke-width="1.5"/>
+<text x="80" y="986" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#203D34">Ingredienser &amp; hudvård</text>
+<text x="80" y="1012" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Ingrediensinformation och kundcitat</text>
+<path d="M290 1033 L290 1047" fill="none" stroke="#9AAFA5" stroke-width="2"/>
+<rect x="60" y="1047" width="460" height="77" rx="12" fill="#FFFFFF" stroke="#C4D5CA" stroke-width="1.5"/>
+<text x="80" y="1077" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#203D34">För företag</text>
+<text x="80" y="1103" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Information för kontor, gym och hotell</text>
+<path d="M290 1124 L290 1138" fill="none" stroke="#9AAFA5" stroke-width="2"/>
+<rect x="60" y="1138" width="460" height="77" rx="12" fill="#FFFFFF" stroke="#C4D5CA" stroke-width="1.5"/>
+<text x="80" y="1168" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#203D34">Vanliga frågor</text>
+<text x="80" y="1194" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Utfällbara frågor och svar</text>
+<path d="M290 1215 L290 1229" fill="none" stroke="#9AAFA5" stroke-width="2"/>
+<rect x="60" y="1229" width="460" height="77" rx="12" fill="#FFFFFF" stroke="#C4D5CA" stroke-width="1.5"/>
+<text x="80" y="1259" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#203D34">Avslutande köpknapp</text>
+<text x="80" y="1285" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Länkar till Startpaket &amp; Refills</text>
+<path d="M290 1306 L290 1320" fill="none" stroke="#9AAFA5" stroke-width="2"/>
+<rect x="60" y="1320" width="460" height="77" rx="12" fill="#FFFFFF" stroke="#C4D5CA" stroke-width="1.5"/>
+<text x="80" y="1350" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#203D34">Sidfot</text>
+<text x="80" y="1376" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Navigering, nyhetsbrev och övriga länkar</text>
+<rect x="550" y="380" width="460" height="100" rx="12" fill="#E8F0FB" stroke="#AEC4E5" stroke-width="1.5"/>
+<text x="570" y="410" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#203D34">Produktval</text>
+<text x="570" y="436" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Val av doft och, för startpaketet, flaska</text>
+<text x="570" y="459" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Knapp: Lägg i varukorg</text>
+<path d="M780 480 L780 506" fill="none" stroke="#9AAFA5" stroke-width="2"/>
+<rect x="550" y="506" width="460" height="100" rx="12" fill="#E8F0FB" stroke="#AEC4E5" stroke-width="1.5"/>
+<text x="570" y="536" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#203D34">Varukorg – sidopanel</text>
+<text x="570" y="562" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Öppnas även via varukorgsikonen</text>
+<text x="570" y="585" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Produkter, frakt, totalsumma och kassaknapp</text>
+<path d="M780 606 L780 632" fill="none" stroke="#9AAFA5" stroke-width="2" stroke-dasharray="7 5"/>
+<rect x="550" y="632" width="460" height="95" rx="12" fill="#FFF4DE" stroke="#DAB568" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="570" y="662" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#203D34">Kassa – ej verifierad</text>
+<text x="570" y="688" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Kassaknapp finns i HTML-koden.</text>
+<text x="570" y="711" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Ingen kassasida finns i underlaget.</text>
+<rect x="550" y="771" width="460" height="110" rx="12" fill="#E8F0FB" stroke="#AEC4E5" stroke-width="1.5"/>
+<text x="570" y="801" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#203D34">Företag → Offertformulär</text>
+<text x="570" y="827" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Popup med företag, kontaktperson,</text>
+<text x="570" y="850" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">e-post och antal tvättställ</text>
+<text x="570" y="873" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Knapp: Skicka offertförfrågan</text>
+<rect x="550" y="925" width="460" height="90" rx="12" fill="#E8F0FB" stroke="#AEC4E5" stroke-width="1.5"/>
+<text x="570" y="955" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#203D34">Sidfot → Nyhetsbrev</text>
+<text x="570" y="981" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">E-postfält och prenumerationsknapp</text>
+<rect x="1040" y="380" width="460" height="96" rx="12" fill="#FFF4DE" stroke="#DAB568" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="1060" y="410" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#203D34">Webbplatskarta</text>
+<text x="1060" y="436" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Länk till sitemap.html</text>
+<text x="1060" y="459" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Filens innehåll är inte medskickat.</text>
+<rect x="1040" y="502" width="460" height="96" rx="12" fill="#FFF4DE" stroke="#DAB568" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="1060" y="532" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#203D34">XML-sitemap</text>
+<text x="1060" y="558" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Länk till sitemap.xml för sökmotorer</text>
+<text x="1060" y="581" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Filens innehåll är inte medskickat.</text>
+<rect x="1040" y="624" width="460" height="80" rx="12" fill="#FFF4DE" stroke="#DAB568" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="1060" y="654" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#203D34">Integritetspolicy</text>
+<text x="1060" y="680" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Platshållarlänk (#), ingen egen sida</text>
+<rect x="1040" y="730" width="460" height="80" rx="12" fill="#FFF4DE" stroke="#DAB568" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="1060" y="760" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#203D34">Köpvillkor &amp; Garanti</text>
+<text x="1060" y="786" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Platshållarlänk (#), ingen egen sida</text>
+<rect x="1040" y="836" width="460" height="80" rx="12" fill="#FFF4DE" stroke="#DAB568" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="1060" y="866" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#203D34">Hållbarhetsdeklaration</text>
+<text x="1060" y="892" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#53685F">Platshållarlänk (#), ingen egen sida</text>
+<text x="550" y="1085" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#203D34">Så läser ni kartan</text>
+<rect x="550" y="1107" width="18" height="18" rx="4" fill="#C4D5CA"/>
+<text x="580" y="1122" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#203D34">Grönt / vitt: avsnitt på samma sida</text>
+<rect x="550" y="1142" width="18" height="18" rx="4" fill="#AEC4E5"/>
+<text x="580" y="1157" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#203D34">Blått: formulär, val eller panel</text>
+<rect x="550" y="1177" width="18" height="18" rx="4" fill="#DAB568"/>
+<text x="580" y="1192" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#203D34">Gult / streckat: saknas eller ej verifierat</text>
+<text x="550" y="1252" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#203D34">Huvudmeny</text>
+<text x="550" y="1282" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#203D34">Hur det fungerar • Startpaket &amp; Refills • Jämförelse</text>
+<text x="550" y="1308" font-family="Arial, sans-serif" font-size="17" font-weight="400" fill="#203D34">Miljökalkylator • För företag • Vanliga frågor</text>
+<text x="60" y="1450" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#203D34">Underlag: HTML. app.js och separata sidor har inte granskats. Kartan visar struktur, inte verifierad funktionalitet.</text>
+</svg>
