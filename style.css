@@ -76,6 +76,8 @@
   --farg-karta-slut: #E2ECE5;
   --farg-karta-rutnat: rgba(28, 59, 43, 0.12);
   --farg-kartfot-bakgrund: rgba(255, 255, 255, 0.85);
+  --farg-karta-tona: rgba(240, 245, 242, 0.92);
+  --bild-karta: url('assets/stockholm-karta.webp');
   --farg-overlagg-45: rgba(0, 0, 0, 0.45);
   --farg-overlagg-50: rgba(0, 0, 0, 0.5);
 
@@ -3052,16 +3054,39 @@ input, select, textarea {
   justify-content: space-between;
 }
 
-/* Stylized Map Grid Overlay */
+/* Riktig karta över Stockholm (OpenStreetMap), tonad i sajtens färger.
+   Bilden ligger på sajten, så inga anrop går till kartservrar. */
 .map-grid-overlay {
   position: absolute;
   inset: 0;
-  opacity: 0.4;
-  background-image: 
-    linear-gradient(var(--farg-karta-rutnat) 1.5px, transparent 1.5px),
-    linear-gradient(90deg, var(--farg-karta-rutnat) 1.5px, transparent 1.5px);
-  background-size: 40px 40px;
+  background-image:
+    linear-gradient(180deg, var(--farg-karta-tona) 0%, var(--farg-karta-tona) var(--karta-tona-slut, 24%), transparent var(--karta-fri-start, 50%), transparent 74%, var(--farg-karta-tona) 100%),
+    var(--bild-karta);
+  background-size: cover;
+  background-position: 55% 50%;
   pointer-events: none;
+}
+
+/* På mobil är rubriken högre, så tonen går längre ner */
+@media (max-width: 600px) {
+  .map-grid-overlay { --karta-tona-slut: 32%; --karta-fri-start: 52%; }
+  /* Mer plats så att nålen inte hamnar på rubriken */
+  .about-map-card { min-height: 470px; }
+  .map-pin-pulse-container { top: 54%; }
+}
+
+/* Källhänvisning som OpenStreetMap kräver */
+.map-attribution {
+  position: absolute;
+  right: 1.25rem;
+  bottom: 0.65rem;
+  z-index: 2;
+  font-size: 0.6875rem;
+  color: var(--color-text-secondary);
+}
+
+.map-attribution a {
+  text-decoration: underline;
 }
 
 .map-card-header {
@@ -3395,6 +3420,8 @@ body.morkt {
   --farg-karta-slut: #17201B;
   --farg-karta-rutnat: rgba(143, 201, 169, 0.10);
   --farg-kartfot-bakgrund: rgba(26, 31, 28, 0.9);
+  --farg-karta-tona: rgba(28, 38, 33, 0.92);
+  --bild-karta: url('assets/stockholm-karta-mork.webp');
   --farg-overlagg-45: rgba(0, 0, 0, 0.6);
   --farg-overlagg-50: rgba(0, 0, 0, 0.65);
 
